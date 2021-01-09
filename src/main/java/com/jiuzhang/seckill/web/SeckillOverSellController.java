@@ -23,7 +23,7 @@ public class SeckillOverSellController {
      * @return
      */
     @ResponseBody
-    @RequestMapping("/seckill123/{seckillActivityId}")
+    @RequestMapping("/seckills/{seckillActivityId}")
     public String  seckil(@PathVariable long seckillActivityId){
         return seckillOverSellService.processSeckill(seckillActivityId);
     }
